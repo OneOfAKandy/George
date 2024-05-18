@@ -21,18 +21,12 @@ function isBigger(a, b){
         return true;
     }
 }
-console.log(isBigger(2, 2));
-//create function that adds 2 numbers together and checks if the sum is greater than 50 return if true or false.
+//console.log(isBigger(2, 2));
 
-function isGreater(a, b){
-    let c = a + b;
-    if(c < 50){
-        return false;
-    } else {
-        return true;
-    }
-}
-console.log(isGreater(25, 30))
+//random
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
 
 // arrays
 let objects = [
@@ -52,3 +46,11 @@ let person = {
     lastName: "jobs"
 }
 person.firstName = "carl"
+
+//for loops
+//let numeric = [1, 2, 69, 4, 5, 6 ]
+for(let i = 0; i < numeric.length; i++ ){
+    console.log(numeric[i])
+}
+
+//console.log(sumArray([1,2,3,4,5]));
